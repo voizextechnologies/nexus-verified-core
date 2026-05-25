@@ -56,9 +56,23 @@ export function Footer() {
 
         <div className="mt-16 pt-6 border-t border-white/10 flex flex-wrap items-center justify-between gap-3 text-[11.5px] text-white/40">
           <div>© {new Date().getFullYear()} Stromont Consulting Private Limited. All rights reserved.</div>
-          <div className="flex items-center gap-2 font-mono">
-            <span className="h-1.5 w-1.5 rounded-full bg-emerald-400 animate-pulse-dot" />
-            All systems operational
+          <div className="flex flex-wrap items-center gap-4 font-mono">
+            <span>
+              Engineered by{" "}
+              <a
+                href="https://voizex.com"
+                target="_blank"
+                rel="noopener"
+                title="Voizex Technologies — enterprise software & AI engineering"
+                className="text-white/70 hover:text-white underline underline-offset-4 decoration-white/30 hover:decoration-white"
+              >
+                Voizex Technologies
+              </a>
+            </span>
+            <span className="flex items-center gap-2">
+              <span className="h-1.5 w-1.5 rounded-full bg-emerald-400 animate-pulse-dot" />
+              All systems operational
+            </span>
           </div>
         </div>
       </div>
