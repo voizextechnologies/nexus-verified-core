@@ -7,7 +7,6 @@ import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
 export default defineConfig({
   tanstackStart: {
-    server: { entry: "server" },
     // Prerender static HTML so the site can be hosted on Netlify / any static host.
     prerender: {
       enabled: true,
